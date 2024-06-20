@@ -6,4 +6,19 @@ Part 2(Part 4 in the slideshow) is the statistical analysis, where we run some a
 and also within different demographic groups.
 We have an additional tutorial on how we used the API to download data in the ApiTutorial folder
 
+Running JupyterLab with Docker
+To run the JupyterLab environment with the provided notebooks:
+
+Pull the Docker image:
+
+docker pull yusufashk/immportworkshop2024:latest
+
+Run the Docker container:
+
+docker run -p 8888:8888 yusufashk/immportworkshop2024:latest
+
+Access JupyterLab:
+
+Open a web browser and navigate to http://localhost:8888. You should see the JupyterLab interface with the provided notebooks available.
+
 Contact yusufashk@gmail.com for any questions about this tutorial
